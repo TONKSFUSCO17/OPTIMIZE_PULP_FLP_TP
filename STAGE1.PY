@@ -11,7 +11,7 @@
 from pulp import *
 
 # CREATE LIST OF SUPPLY NODES
-supplynodes = ["1",	"2",	"3",	"4",	"5",	"6",	"7",	"8",	"9",	"10",	"11",	"12",	"13",	"14",	"15",	"16",	"17",	"18",	"19",	"20"]
+supplynodes = ["1",	"2", "3",	"4", "5",	"6", "7",	"8", "9",	"10", "11", "12", "13", "14",	"15", "16", "17", "18", "19",	"20"]
 
 # DICTIONARY INDEX TOTAL SUPPLY AVAILABLE AT EACH NODE
 supply = {"1":5629,
