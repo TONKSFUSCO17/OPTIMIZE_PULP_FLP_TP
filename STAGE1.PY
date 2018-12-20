@@ -84156,5 +84156,12 @@ demand = {"501":1,
 "99950":1,
          }
 
+#COST MATRIX
+costs = [   #DEMAND NODE
+         #1 2 3 4 5
+         [X,X,X,X,X],#501   SUPPLY NODES
+         [X,X,X,X,X] #544
+         ]
+
 # SOLVE PROBLEM USING GLPK
 prob.solve(GLPK())
